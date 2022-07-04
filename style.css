@@ -1,0 +1,32 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 50px;
+}
+.orange-color-text {
+    color: orange;
+}
+#first-header {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.link-decoration {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+#first-paragraph {
+    margin-bottom: 30px;
+}
+.section-area {
+    display: flex;
+    margin-bottom: 40px;
+}
+.half-width {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+.half-width img {
+    width: 100%;
+}
