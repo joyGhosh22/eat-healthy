@@ -2,37 +2,64 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin-left: 50px;
 }
+
 .orange-color-text {
     color: orange;
 }
+
 #first-header {
     font-size: 30px;
     margin-bottom: 20px;
 }
+
 .link-decoration {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     padding: 10px 20px;
     border-radius: 20px;
 }
+
 #first-paragraph {
     margin-bottom: 30px;
 }
+
 .section-area {
     display: flex;
     margin-bottom: 40px;
 }
+
 .half-width {
     width: 50%;
     margin: 5px;
     padding: 0;
 }
+
 .half-width img {
     width: 30%;
     margin-left: 60px;
     padding-left: 60px;
 }
+
 .second-section-bg {
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
+}
+
+.box-shadow {
+    box-shadow: 0px 0px 2px 2px grey;
+
+}
+
+.box-shadow img {
+    width: 100%;
+}
+
+.text-weight {
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.content-partition {
+    margin-left: 150px;
+    margin-right: 100px;
 }
