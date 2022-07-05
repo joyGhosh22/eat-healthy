@@ -17,6 +17,7 @@ body {
     background-image: linear-gradient(orange, tomato);
     padding: 10px 20px;
     border-radius: 20px;
+    margin-top: 100px;
 }
 
 #first-paragraph {
@@ -25,7 +26,7 @@ body {
 
 .section-area {
     display: flex;
-    margin-bottom: 40px;
+    margin-bottom: 30;
 }
 
 .half-width {
@@ -35,9 +36,12 @@ body {
 }
 
 .half-width img {
-    width: 30%;
-    margin-left: 60px;
-    padding-left: 60px;
+    width: 20%;
+
+}
+
+.full-width img {
+    width: 60%;
 }
 
 .second-section-bg {
@@ -46,12 +50,23 @@ body {
 }
 
 .box-shadow {
-    box-shadow: 0px 0px 2px 2px grey;
+    box-shadow: 2px 2px 20px 10px grey;
+    padding: 30px;
+    border-radius: 25px;
+    margin-left: 30px;
 
 }
 
 .box-shadow img {
     width: 100%;
+
+}
+
+.shadow-margin {
+    margin-left: 40px;
+    margin-right: 40px;
+
+
 }
 
 .text-weight {
@@ -68,11 +83,19 @@ footer {
     background-color: black;
     height: 200px;
     color: white;
-    text-align: center;
     margin-top: 20px;
     padding-top: 20px;
+    margin-left: 0;
 }
 
 #healthy {
     color: grey;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.image-resizer {
+    width: 100%;
 }
